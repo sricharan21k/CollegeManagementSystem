@@ -4,19 +4,19 @@ The College Management System is a streamlined web application developed using S
 
 Features
 Department Management:
-Create, retrieve, update, and delete departments.
+Create, retrieve and update departments.
 Automatic generation of unique department codes.
 
 Subject Management:
-Create, retrieve, update, and delete subjects.
+Create, retrieve and update subjects.
 Automatic generation of unique subject codes.
 
 Professor Management:
-Create, retrieve, update, and delete professors.
+Create, retrieve, update and delete professors.
 Automatic generation of unique professor IDs.
 
 Student Management:
-Create, retrieve, update, and delete students.
+Create, retrieve, update and delete students.
 Automatic generation of unique student roll numbers.
 
 Spring Data JPA:
