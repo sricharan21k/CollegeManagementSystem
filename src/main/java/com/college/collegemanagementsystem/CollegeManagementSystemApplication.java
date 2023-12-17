@@ -14,20 +14,10 @@ import java.util.List;
 import java.util.Optional;
 
 @SpringBootApplication
-public class CollegeManagementSystemApplication implements CommandLineRunner {
-
-	@Autowired
-	private ProfessorService professorService;
+public class CollegeManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CollegeManagementSystemApplication.class, args);
 	}
 
-	@Override
-//	@Transactional
-	public void run(String... args) throws Exception {
-//		UpdateProfessorRequest request = new UpdateProfessorRequest();
-//		request.setSubjects(List.of("CL"));
-//		professorService.updateProfessor("PR@AJCS001", request);
-	}
 }
